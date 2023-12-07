@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+	  <UseWPF>true</UseWPF>
+	  <UseWindowsForms>true</UseWindowsForms>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <Description>Provides WPF UserControls</Description>
+	  <Version>1.0.1</Version>
+  </PropertyGroup>
+
+</Project>

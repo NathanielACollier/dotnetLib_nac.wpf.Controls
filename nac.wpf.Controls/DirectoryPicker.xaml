@@ -1,0 +1,12 @@
+<UserControl x:Name="userControl" x:Class="nac.wpf.Controls.DirectoryPicker"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    >
+
+
+    <DockPanel>
+        <Button DockPanel.Dock="Left" x:Name="PickDirectoryButton" Click="PickDirectoryButton_Click">...</Button>
+        <!-- The textbox gets updated, but the user cannot directly key in a path at this point -->
+        <TextBox IsReadOnly="True" AcceptsReturn="False" AcceptsTab="False" Text="{Binding DirectoryPath, ElementName=userControl, Mode=OneWay}" />
+    </DockPanel>
+</UserControl>
